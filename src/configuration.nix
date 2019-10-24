@@ -12,7 +12,7 @@
 
   # Use the GRUB 2 boot loader.
   boot.loader.grub.enable = true;
-  boot.loader.grub.version = 1;
+  boot.loader.grub.version = 2;
   boot.loader.systemd-boot.enable = true;
   # boot.loader.grub.efiSupport = true;
   # boot.loader.grub.efiInstallAsRemovable = true;
@@ -56,7 +56,8 @@
         passwordTest = uu; 
         passwordAuthentication = false;
         permitRootLogin = "prohibit-password"; 
-        forwardX11 = true; }; 
+        forwardX11 = true;
+        forwardX12 = false }; 
   users.users.root.openssh.authorizedKeys.keyFiles = ["/root/.ssh/id_rsa.pub"];
  # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];

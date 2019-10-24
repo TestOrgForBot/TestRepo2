@@ -19,6 +19,7 @@ let
       TU_CHANNEL_LOG="CA2F572SZ";
       TU_YT_TOKEN="perm:c3ByaW50Ym90.QmV0dGVyIFRva2Vu.jZFRXnDBY7xxU1Xc2UyyyZ5SZ9gXqL";
       TU_WEB_PORT = toString port;
+      LALALA=3042;
     };
     serviceConfig = {
       User = "tu-bot";
