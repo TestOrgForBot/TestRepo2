@@ -57,7 +57,7 @@
         passwordAuthentication = false;
         permitRootLogin = "prohibit-password"; 
         forwardX11 = true;
-        forwardX12 = false }; 
+        forwardX12 = false; }; 
   users.users.root.openssh.authorizedKeys.keyFiles = ["/root/.ssh/id_rsa.pub"];
  # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
